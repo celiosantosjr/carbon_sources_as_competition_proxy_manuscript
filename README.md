@@ -26,9 +26,16 @@ You will need to install in your path:
 ### Info
 
 We need to run the first and most crucial step of these scripts the program
-[CaCo](https://github.com/celiosantosjr/CaCo) that we designed to calculate the carbon substrates competition 
-scores. You can find more information on its github repository, just follow
-the [link](https://github.com/celiosantosjr/CaCo).
+[CaCo](https://github.com/celiosantosjr/CaCo), designed to calculate the carbon
+substrates competition scores. You can find more information on its github repository,
+just follow the [link](https://github.com/celiosantosjr/CaCo).
+
+We also include precomputed files with the [Longhurst provinces](provinces_output.tsv) for the set of
+coordinates in the samples we assessed. Another info available is the number of proteins per
+genome as predicted using prodigal and that can be accessed in this [file](protein_per_genome.tsv).
+
+The data (except for the genomes-fasta files) is available in the `data` folder, as well as, the 
+outputs expected in this analysis are available in the compressed tar file named `output.tar.gz`.
 
 ### How to run
 
