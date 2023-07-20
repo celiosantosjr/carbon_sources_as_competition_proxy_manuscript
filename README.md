@@ -1,6 +1,7 @@
-# carbon_sources_as_competition_proxy_manuscript
+# Carbon Sources as competition proxy manuscript
 
-This folder contains the scripts needed for reproducing the work 'Carbon sources as competition proxy in the oceans'.
+This folder contains the scripts needed for reproducing the work 'Carbon sources
+as a proxy for microbial competition in the oceans'.
 
 ### Requirements
 
@@ -20,8 +21,16 @@ You will need to install in your path:
 
 - prodigal
 - mmseqs
+- CaCo
 
-### How to run:
+### Info
+
+We need to run the first and most crucial step of these scripts the program
+[CaCo](github.com/celiosantosjr/CaCo) that we designed to calculate the carbon substrates competition 
+scores. You can find more information on its github repository, just follow
+the [link](github.com/celiosantosjr/CaCo).
+
+### How to run
 
 Scripts were written in their correct order, so run the scripts from 00 until 13th 
 using the classical:
