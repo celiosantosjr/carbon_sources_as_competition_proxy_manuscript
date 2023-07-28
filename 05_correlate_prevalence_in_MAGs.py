@@ -9,7 +9,7 @@ df = pd.read_table('output/substrates_by_site.tsv')
 # correlation with latitude
 cors = []
 for col in df.columns[6:]:
-    r, p = spearmanr(df.latitude, df[col])
+    r, p = spearmanr(abs(df.latitude), df[col])
     cors.append(('latitude', col, r, p))
 
 cors = pd.DataFrame(cors, columns=['x', 'y', 'spearman_rho', 'p-value'])
@@ -50,6 +50,7 @@ cors.to_csv('output/correlations_depth_layer.tsv', sep='\t', header=True, index=
 # latitude
 lat = pd.read_table('output/correlations_latitude.tsv')
 lat = lat[lat.padj < 0.05]
+df.latitude = abs(df.latitude)
 for _, x, y, _, _, _ in lat.itertuples():
     sns.scatterplot(data=df, x=x, y=y, s=0.5, alpha=0.25, color='gray')
     sns.regplot(data=df, x=x, y=y, color='gray')
