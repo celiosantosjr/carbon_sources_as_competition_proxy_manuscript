@@ -1,0 +1,11 @@
+genomes/20C_canu_polished.fa
+genomes/22C_flye_polished.fa
+genomes/23C_canu_polished.fa
+genomes/27C_flye_polished.fa
+genomes/7C_flye_polished.fa
+genomes/polypolish_trycycler_TR63_2023.fasta
+genomes/TP21_canu_polished.fa
+genomes/TP30_canu_polished.fa
+genomes/TP94_flye_polished.fa
+genomes/TR100_2_flye_polished.fa
+genomes/TR63_mayo_canu_polished.fa

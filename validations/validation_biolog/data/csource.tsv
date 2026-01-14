@@ -1,0 +1,97 @@
+Csource	7C	20C	TP21	22C	23C	27C	TP30	TR63	TP94	TR100
+D-Serina	0	1	0	0	0	0	0	1	0	1
+D-Glucosa-6-fosfato	0	1	0	1	0	0	0	1	0	1
+L-Asparagina	1	1	1	1	1	1	1	1	1	1
+L-Glutamina	1	1	1	1	0	1	1	0	1	1
+Ácido glicil-L-aspártico	0	1	0	1	1	0	0	1	0	0
+Ácido glicil-L-glutámico	0	0	0	1	1	0	1	1	1	0
+Glicil-L-prolina	0	1	0	1	0	0	0	0	0	1
+L-Arabinosa	0	0	1	1	1	0	1	1	1	1
+D-Sorbitol	0	1	0	1	0	0	1	0	1	1
+Ácido D-galactónico-𝛾-Lacton	0	0	1	1	0	0	1	0	1	1
+Ácido D-aspártico	1	0	0	0	0	0	0	0	0	0
+Ácido m-tartárico	1	0	0	0	0	0	0	0	0	0
+Ácido cítrico	0	1	1	0	0	1	1	0	1	1
+Ácido tricarbalílico	1	0	1	0	0	0	0	0	0	0
+Ácido p-hidroxifenil acético	0	1	1	1	0	0	1	0	1	1
+N-acetil-D- glucosamina	0	1	0	1	1	0	1	1	1	1
+Glicerol	0	1	1	1	0	0	1	1	1	1
+Ácido D, L-málico	1	1	1	1	1	1	1	1	1	1
+Ácido D-glucosamínico	0	0	0	0	0	0	1	0	1	1
+D-Glucosa-1- Fosfato	0	1	0	1	0	0	0	0	0	1
+m-Inositol	0	1	0	0	0	0	1	0	1	1
+L-Serina	0	1	0	1	0	0	1	1	1	1
+Ácido m-hidroxifenil acético	0	1	0	1	0	0	0	0	0	1
+Ácido D-sacárico	0	0	1	1	0	0	1	0	1	1
+L-Fucosa	0	1	0	0	0	0	0	0	0	1
+D-Ribosa	0	1	0	1	0	0	1	1	1	1
+1,2-propanodiol	0	0	0	0	0	0	0	0	0	0
+D-fructosa-6- fosfato	0	1	0	1	0	0	0	1	0	1
+D-treonina	0	1	0	0	0	0	1	0	0	1
+L-treonina	1	0	1	0	1	0	1	1	1	1
+Tiramina	0	1	1	0	0	0	1	1	1	1
+Ácido succínico	1	1	1	1	1	1	1	0	1	1
+Ácido D-glucurónico	0	1	1	1	0	0	1	0	1	1
+Tween 20	1	1	0	0	1	1	1	0	1	1
+Tween 40	1	1	0	0	1	1	1	0	1	1
+Tween 80	1	1	0	0	1	1	1	0	1	1
+Ácido fumárico	1	1	1	1	1	1	1	1	1	1
+L-alanina	1	1	1	1	1	1	1	0	1	1
+D-Psicosis	0	1	0	0	0	0	0	0	0	0
+D-galactosa	0	1	1	1	0	0	1	1	1	1
+Ácido D-glucónico	0	1	1	1	0	0	1	1	1	1
+L-Ramnosa	0	0	0	1	0	0	0	0	0	0
+Ácido 𝛼-cetoglutárico	1	1	1	0	0	1	1	1	1	0
+Ácido 𝛼-hidroxi glutárico-𝛾- Lactona	0	0	0	0	0	0	1	0	0	0
+Ácido bromo succínico	1	1	1	1	1	1	1	1	1	1
+L-alanil-glicina	0	1	1	1	1	0	1	1	1	1
+L-Lixosa	0	0	0	0	0	0	0	1	0	0
+Ácido L-aspártico	1	1	1	1	0	0	1	1	1	1
+D, L-𝛼-Glicerol- Fosfato	0	1	0	0	0	0	1	1	0	1
+D-fructosa	0	1	1	1	0	0	1	1	1	1
+Ácido 𝛼-ceto-butírico	1	1	1	0	1	1	0	0	1	1
+Ácido 𝛼 -hidroxi butírico 	1	1	1	1	0	1	1	0	1	1
+Ácido propiónico	1	1	1	0	0	1	1	0	1	1
+Ácido acetoacético	0	0	0	0	0	0	0	1	0	0
+Glucuronamida	0	0	0	0	0	0	0	0	0	0
+L-Prolina	1	1	1	1	0	1	1	0	1	1
+D-Xilosa	0	0	1	1	0	0	1	1	1	1
+Ácido acético	1	1	1	1	1	1	1	1	1	1
+𝛼-Metil-D- Galactósido	0	0	0	1	0	0	0	0	0	0
+𝛼-Metil-D- Glucósido	0	1	0	1	0	0	0	1	0	0
+Ácido mucico	0	0	1	1	0	0	1	0	1	1
+N-acetil-𝛽-D- manosamina	0	1	0	1	0	0	0	0	0	0
+Ácido pirúvico	1	1	1	1	1	1	1	1	1	1
+D-Alanina	1	1	1	1	0	1	1	0	1	1
+Ácido L-láctico	1	1	1	1	1	1	1	0	1	1
+𝛼-D-glucosa	1	1	1	1	1	0	1	1	1	1
+𝛼-D-Lactose	0	0	0	1	0	0	0	0	0	0
+Adonitol	0	1	0	0	0	0	1	0	1	1
+Ácido glicólico	0	0	0	0	0	0	0	0	0	1
+Succinato de mono metilo	0	0	0	0	0	0	0	1	0	1
+Ácido L-galactónico-𝛾-Lacto	0	1	1	1	0	0	1	1	1	1
+D-Trehalosa	0	1	0	1	0	0	1	1	1	1
+Ácido fórmico	1	1	1	1	1	0	1	1	1	1
+Maltosa	0	1	0	1	1	0	0	1	0	0
+Lactulosa	0	0	0	1	0	0	0	0	0	0
+Maltotriosa	0	1	0	1	1	0	0	1	0	0
+Ácido glioxílico	0	1	0	0	0	0	0	0	0	1
+Piruvato de metilo	1	1	1	1	1	1	1	1	1	1
+Ácido D-galacturónico	0	1	1	1	0	0	1	1	1	1
+D-Manosa	0	1	0	1	0	0	1	0	1	1
+D-Manitol	0	1	0	1	0	0	1	0	1	1
+D-Melibiosa	0	0	0	1	0	0	0	0	0	0
+Sacarosa	0	1	0	1	1	0	1	0	1	1
+2-Desoxi adenosina	0	1	0	1	1	0	0	1	0	0
+D-Celobiosa	0	0	0	1	0	0	0	1	0	1
+Ácido D-málico	0	1	0	0	0	1	0	0	0	1
+Feniletil-amina	0	1	1	0	0	0	0	1	0	1
+Dulcitol	0	0	0	0	0	0	0	0	0	1
+Ácido L-glutámico	1	1	1	1	0	1	1	1	1	1
+Timidina	0	1	0	1	1	0	0	1	0	1
+Uridina	0	1	0	1	1	0	1	1	1	0
+Adenosina	0	1	0	1	1	0	1	1	1	1
+Inosina	0	1	0	1	1	0	1	1	1	0
+Ácido L-málico	1	1	1	1	1	1	1	1	1	1
+2-Aminoetanol	1	0	0	0	0	0	1	0	1	1
+
