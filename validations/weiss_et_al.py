@@ -169,6 +169,26 @@ def save_results(results_df, output_path='correlation_results.csv'):
     results_df.to_csv(output_path, index=False)
     print(f"Results saved to {output_path}")
 
+def plot_rps_vs_auc(df, output_path='weiss.svg'):
+    """
+    Create a scatter plot with regression line for RPS vs AUC_sm_depletion.
+    This replicates the plot from the original comparison.py script.
+    
+    Parameters:
+    -----------
+    df : pandas.DataFrame
+        Dataframe containing 'RPS' and 'AUC_sm_depletion' columns.
+    output_path : str
+        Path to save the scatter plot.
+    """
+    plt.figure(figsize=(6, 5))
+    sns.regplot(data=df, x='AUC_sm_depletion', y='RPS')
+    plt.xlabel('AUC SM depletion')
+    plt.tight_layout()
+    plt.savefig(output_path)
+    plt.close()
+    print(f"Scatter plot saved to {output_path}")
+
 def main():
     """Main execution function."""
     # Configuration - update these paths for your system
@@ -177,13 +197,17 @@ def main():
     
     # Load data
     df = load_and_prepare_data(CARBONCOMP_PATH, EXCEL_PATH)
-    
+    plot_rps_vs_auc(df, 'weiss.svg')
+
     # Calculate correlations
     results = calculate_correlations(df)
     
     # Display results
     print("\n=== Correlation Results ===")
-    print(results.to_string())
+    t = results.sort_values(by=['experimental_metric', 'genomic_metric'])
+    t = t.to_string()
+    t = t.replace("competition", "Niche Overlap")
+    print(t)
     
     # Save results
     save_results(results, 'correlation_results.csv')
